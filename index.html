@@ -23,10 +23,28 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Veiculos</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Contate-nos</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Localização</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Portal do Cliente</a>
+        <button class="btn btn-danger px-2 d-none d-md-inline-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Portal do Cliente</button>
       </nav>
     </header>
     <main >
+     
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Portal Do Cliente</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div>
+
+        </div>
+
+        <br class="offcanvas-body">
+          <div class="list-group" id="usermenu">
+            <button type="button" class="list-group-item list-group-item-action active" id="CollapseMenu">Meus Perfil</button>
+            <button type="button" class="list-group-item list-group-item-action" id="CollapseMenu">Meus Veículos</button>
+            <button type="button" class="list-group-item list-group-item-action" id="CollapseMenu">Mensagens</button>
+            <button type="button" class="list-group-item list-group-item-action" id="CollapseMenu">Sair</button>
+          </div>
+      </div>
       <div id="carousel-index" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner pt-1"> 
           <div class="carousel-item active">
@@ -41,8 +59,11 @@
           <button type="button" data-bs-target="#carousel-index" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
       </div>
+    </main>
+    <div class="py-5">
 
 
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/script.js"></script>
       
