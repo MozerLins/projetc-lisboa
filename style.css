@@ -1,6 +1,9 @@
 .container {
   max-width: 960px;
 }
+.main{
+ background-color: #edf1f4;
+}
 
 /*
  * Custom translucent site header
@@ -43,14 +46,11 @@ nav a img {
 }
 
 /*Card's*/
+
 .round{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}
-.card-background  {
- background-color: rgb(241, 238, 238);
- border-bottom-left-radius: 5px;
- border-bottom-right-radius: 5px;
+  
 }
 
 .btn-prev{
