@@ -10,12 +10,12 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS customizado -->
-    <link href="index.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="site-header sticky-top py-1">
-      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between ">
           <a href="#" class="navbar-brand" menu>
             <img alt="Brand" src="/images/logo.svg" class="img-responsive">
           </a>
@@ -29,7 +29,7 @@
     <main >
      
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header shadow-sm">
           <h5 class="offcanvas-title" id="offcanvasRightLabel">Portal Do Cliente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -59,11 +59,56 @@
           <button type="button" data-bs-target="#carousel-index" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
       </div>
+      <div class="container py-4 ">
+        <div class="row card-background">
+          <div class="col-lg-12 d-flex justify-content-center py-4 bg-success text-white round card-background">
+            <h5> Frotas em Destaque</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 col-xxl-2  py-2 ">
+            <div class="card">
+              <img src="/images/car-destaque/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fiat <b>Siena 1.0 </b></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 col-xxl-2 py-2 ">
+            <div class="card">
+              <img src="/images/car-destaque/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fiat <b>Siena 1.0 </b></h5>
+                <p class="card-text"> </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 col-xxl-2 py-2">
+            <div class="card">
+              <img src="/images/car-destaque/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fiat <b>Siena 1.0 </b></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 col-xxl-2  py-2">
+            <div class="card">
+              <img src="/images/car-destaque/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fiat <b>Siena 1.0 </b></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-prev">Prev</button>
+        <button class="btn-next">Next</button>
+      </div>
+     
+
+
     </main>
-    <div class="py-5">
-
-
-    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/script.js"></script>
       

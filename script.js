@@ -1,16 +1,17 @@
-var myCarousel = document.querySelector('#carousel-index')
-var MenuDropdown = document.querySelector('#CollapseMenu')
-var triggerTabList = document.getElementById('usermenu')
+var myCarousel = document.querySelector('#carousel-index');
+//var MenuDropdown = document.querySelector('#CollapseMenu');
+//var triggerTabList = document.getElementById('usermenu');
 
-QuerySelector();
-
-function myCarouse(){
-    var carousel = new bootstrap.Carousel(myCarousel, {
-      interval: 5000000,
+function myCarouse(){ //Carregar o Carrosel
+    var logotipo = new bootstrap.Carousel(myCarousel, {
+      interval: 500000,
       wrap: true
     })
 }
 
+function abreportal() {
+
+}
 
 
 /*
